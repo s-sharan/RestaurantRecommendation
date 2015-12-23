@@ -1,0 +1,428 @@
+Retrieving logs...
+============= i-38191bfc ==============
+-------------------------------------
+/var/log/eb-version-deployment.log
+-------------------------------------
+2015-12-23 17:43:38,278 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-us-west-2-748615365990,resources/environments/e-ecvhjsbctu/_runtime/versions/manifest_1450892470646> from bucket elasticbeanstalk-us-west-2-748615365990 and prefix resources/environments/e-ecvhjsbctu/_runtime/versions/
+2015-12-23 17:43:38,338 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2015-12-23 17:43:38,505 [INFO] Downloaded version label app-151223_124100 from s3 key <Key: elasticbeanstalk-us-west-2-748615365990,resources/environments/e-ecvhjsbctu/_runtime/_versions/Palette/app-151223_124100>
+
+
+
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Wed Dec 23 17:48:31.014243 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:48:31.014263 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:48:31.014289 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:48:31.014306 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:48:36.022215 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:48:36.022318 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:48:36.023965 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:48:36.023986 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:48:36.024013 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:48:36.024030 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:48:41.026868 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:48:41.028629 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:48:41.028654 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:48:41.028671 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:48:41.028701 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:48:41.028719 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:48:46.035878 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:48:46.035943 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:48:46.037476 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:48:46.037495 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:48:46.037521 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:48:46.037538 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:48:51.045409 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:48:51.045523 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:48:51.048477 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:48:51.048499 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:48:51.048525 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:48:51.048541 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:48:56.056584 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:48:56.056676 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:48:56.058748 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:48:56.058768 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:48:56.058793 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:48:56.058810 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:49:01.066706 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:49:01.066829 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:49:01.068997 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:49:01.069021 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:49:01.069053 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:49:01.069069 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:49:06.077007 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:49:06.077099 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:49:06.079086 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:49:06.079105 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:49:06.079131 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:49:06.079147 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:49:11.082686 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:49:11.082787 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:49:11.084497 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:49:11.084518 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:49:11.084545 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:49:11.084562 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:49:16.092416 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:49:16.092518 2015] [:error] [pid 2832] [remote 127.0.0.1:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:49:16.099387 2015] [:error] [pid 2832] [remote 127.0.0.1:0] Traceback (most recent call last):
+[Wed Dec 23 17:49:16.099410 2015] [:error] [pid 2832] [remote 127.0.0.1:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:49:16.099436 2015] [:error] [pid 2832] [remote 127.0.0.1:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:49:16.099453 2015] [:error] [pid 2832] [remote 127.0.0.1:0] ImportError: No module named flask
+[Wed Dec 23 17:50:30.241694 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:50:30.241720 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:50:30.241739 2015] [:error] [pid 2832] [remote 172.31.30.255:0] Traceback (most recent call last):
+[Wed Dec 23 17:50:30.241756 2015] [:error] [pid 2832] [remote 172.31.30.255:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:50:30.241782 2015] [:error] [pid 2832] [remote 172.31.30.255:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:50:30.241798 2015] [:error] [pid 2832] [remote 172.31.30.255:0] ImportError: No module named flask
+[Wed Dec 23 17:50:30.445646 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:50:30.445664 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:50:30.445690 2015] [:error] [pid 2832] [remote 172.31.30.255:0] Traceback (most recent call last):
+[Wed Dec 23 17:50:30.445708 2015] [:error] [pid 2832] [remote 172.31.30.255:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:50:30.445732 2015] [:error] [pid 2832] [remote 172.31.30.255:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:50:30.445748 2015] [:error] [pid 2832] [remote 172.31.30.255:0] ImportError: No module named flask
+[Wed Dec 23 17:50:30.539987 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:50:30.540003 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:50:30.540025 2015] [:error] [pid 2832] [remote 172.31.30.255:0] Traceback (most recent call last):
+[Wed Dec 23 17:50:30.540043 2015] [:error] [pid 2832] [remote 172.31.30.255:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:50:30.540067 2015] [:error] [pid 2832] [remote 172.31.30.255:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:50:30.540084 2015] [:error] [pid 2832] [remote 172.31.30.255:0] ImportError: No module named flask
+[Wed Dec 23 17:52:15.728427 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:52:15.728455 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:52:15.728476 2015] [:error] [pid 2832] [remote 172.31.30.255:0] Traceback (most recent call last):
+[Wed Dec 23 17:52:15.728494 2015] [:error] [pid 2832] [remote 172.31.30.255:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:52:15.728521 2015] [:error] [pid 2832] [remote 172.31.30.255:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:52:15.728538 2015] [:error] [pid 2832] [remote 172.31.30.255:0] ImportError: No module named flask
+[Wed Dec 23 17:52:16.205291 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:52:16.205315 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:52:16.205334 2015] [:error] [pid 2832] [remote 172.31.30.255:0] Traceback (most recent call last):
+[Wed Dec 23 17:52:16.205352 2015] [:error] [pid 2832] [remote 172.31.30.255:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:52:16.205378 2015] [:error] [pid 2832] [remote 172.31.30.255:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:52:16.205394 2015] [:error] [pid 2832] [remote 172.31.30.255:0] ImportError: No module named flask
+[Wed Dec 23 17:52:35.485358 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:52:35.485382 2015] [:error] [pid 2832] [remote 172.31.30.255:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:52:35.485403 2015] [:error] [pid 2832] [remote 172.31.30.255:0] Traceback (most recent call last):
+[Wed Dec 23 17:52:35.485423 2015] [:error] [pid 2832] [remote 172.31.30.255:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:52:35.485449 2015] [:error] [pid 2832] [remote 172.31.30.255:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:52:35.485474 2015] [:error] [pid 2832] [remote 172.31.30.255:0] ImportError: No module named flask
+[Wed Dec 23 17:55:04.239081 2015] [:error] [pid 2832] [remote 172.31.10.239:0] mod_wsgi (pid=2832): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Wed Dec 23 17:55:04.239108 2015] [:error] [pid 2832] [remote 172.31.10.239:0] mod_wsgi (pid=2832): Exception occurred processing WSGI script '/opt/python/current/app/application.py'.
+[Wed Dec 23 17:55:04.239129 2015] [:error] [pid 2832] [remote 172.31.10.239:0] Traceback (most recent call last):
+[Wed Dec 23 17:55:04.239148 2015] [:error] [pid 2832] [remote 172.31.10.239:0]   File "/opt/python/current/app/application.py", line 2, in <module>
+[Wed Dec 23 17:55:04.239174 2015] [:error] [pid 2832] [remote 172.31.10.239:0]     from flask import Flask, redirect, url_for, session, request,render_template
+[Wed Dec 23 17:55:04.239191 2015] [:error] [pid 2832] [remote 172.31.10.239:0] ImportError: No module named flask
+
+
+
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2015-12-23 17:43:43,560 CRIT Supervisor running as root (no user in config file)
+2015-12-23 17:43:43,577 INFO RPC interface 'supervisor' initialized
+2015-12-23 17:43:43,577 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-12-23 17:43:43,577 INFO supervisord started with pid 2604
+2015-12-23 17:43:44,579 INFO spawned: 'httpd' with pid 2685
+2015-12-23 17:43:45,726 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-12-23 17:44:11,838 INFO stopped: httpd (exit status 0)
+2015-12-23 17:44:12,843 INFO spawned: 'httpd' with pid 2829
+2015-12-23 17:44:13,874 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+127.0.0.1 (-) - - [23/Dec/2015:17:44:15 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:44:20 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:44:25 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:44:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:44:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:44:40 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:44:45 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:44:50 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:44:55 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:00 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:05 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:10 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:15 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:20 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:25 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:40 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:45 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:50 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:45:55 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:00 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:05 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:10 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:15 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:20 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:25 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:40 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:45 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:50 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:46:55 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:00 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:05 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:10 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:15 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:20 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:25 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:40 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:45 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:50 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:47:55 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:00 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:05 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:10 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:15 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:20 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:25 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:31 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:36 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:41 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:46 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:51 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:48:56 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:49:01 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:49:06 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:49:11 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+127.0.0.1 (-) - - [23/Dec/2015:17:49:16 +0000] "GET / HTTP/1.1" 500 527 "-" "Python-urllib/2.7"
+172.31.30.255 (129.236.238.216) - - [23/Dec/2015:17:50:30 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0"
+172.31.30.255 (129.236.238.216) - - [23/Dec/2015:17:50:30 +0000] "GET /favicon.ico HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0"
+172.31.30.255 (129.236.238.216) - - [23/Dec/2015:17:50:30 +0000] "GET /favicon.ico HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0"
+::1 (-) - - [23/Dec/2015:17:51:30 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [23/Dec/2015:17:51:31 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [23/Dec/2015:17:51:32 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [23/Dec/2015:17:51:33 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [23/Dec/2015:17:51:34 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.30.255 (69.171.228.119) - - [23/Dec/2015:17:52:15 +0000] "GET / HTTP/1.1" 500 527 "-" "facebookexternalhit/1.1"
+172.31.30.255 (173.252.114.117) - - [23/Dec/2015:17:52:16 +0000] "GET / HTTP/1.1" 500 527 "-" "facebookexternalhit/1.1"
+172.31.30.255 (129.236.238.216) - - [23/Dec/2015:17:52:35 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0"
+::1 (-) - - [23/Dec/2015:17:53:16 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [23/Dec/2015:17:53:32 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [23/Dec/2015:17:53:35 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [23/Dec/2015:17:53:36 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [23/Dec/2015:17:53:37 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.10.239 (129.236.238.216) - - [23/Dec/2015:17:55:04 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:42.0) Gecko/20100101 Firefox/42.0"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+    inflating: /opt/python/ondeck/app/static/assets/img/faces/face-6.jpg  
+    inflating: /opt/python/ondeck/app/static/assets/img/faces/face-7.jpg  
+    inflating: /opt/python/ondeck/app/static/assets/img/faces/face-1.jpg  
+    inflating: /opt/python/ondeck/app/static/assets/img/faces/.DS_Store  
+     creating: /opt/python/ondeck/app/static/assets/css/
+    inflating: /opt/python/ondeck/app/static/assets/css/bootstrap.min.css  
+    inflating: /opt/python/ondeck/app/static/assets/css/stars.png  
+    inflating: /opt/python/ondeck/app/static/assets/css/pe-icon-7-stroke.css  
+    inflating: /opt/python/ondeck/app/static/assets/css/style.css  
+    inflating: /opt/python/ondeck/app/static/assets/css/light-bootstrap-dashboard.css  
+    inflating: /opt/python/ondeck/app/static/assets/css/animate.min.css  
+    inflating: /opt/python/ondeck/app/static/assets/css/flat-ui.css  
+    inflating: /opt/python/ondeck/app/static/assets/css/demo.css  
+    inflating: /opt/python/ondeck/app/static/assets/css/.DS_Store  
+    inflating: /opt/python/ondeck/app/static/assets/css/demoflat.css  
+     creating: /opt/python/ondeck/app/static/assets/js/
+    inflating: /opt/python/ondeck/app/static/assets/js/bootstrap-notify.js  
+    inflating: /opt/python/ondeck/app/static/assets/js/bootstrap.min.js  
+    inflating: /opt/python/ondeck/app/static/assets/js/chartist.min.js  
+    inflating: /opt/python/ondeck/app/static/assets/js/jquery-1.10.2.js  
+    inflating: /opt/python/ondeck/app/static/assets/js/bootstrap-select.js  
+    inflating: /opt/python/ondeck/app/static/assets/js/demo.js  
+    inflating: /opt/python/ondeck/app/static/assets/js/bootstrap-checkbox-radio-switch.js  
+    inflating: /opt/python/ondeck/app/static/assets/js/.DS_Store  
+    inflating: /opt/python/ondeck/app/static/assets/js/light-bootstrap-dashboard.js  
+     creating: /opt/python/ondeck/app/templates/
+    inflating: /opt/python/ondeck/app/templates/restaurantpage.html  
+    inflating: /opt/python/ondeck/app/templates/dishsearch.html  
+    inflating: /opt/python/ondeck/app/templates/booktable.html  
+    inflating: /opt/python/ondeck/app/templates/fb.html  
+    inflating: /opt/python/ondeck/app/templates/confirmbook.html  
+    inflating: /opt/python/ondeck/app/templates/index.html  
+    inflating: /opt/python/ondeck/app/templates/dishresults.html  
+    inflating: /opt/python/ondeck/app/templates/rating.html  
+    inflating: /opt/python/ondeck/app/templates/signup.html  
+    inflating: /opt/python/ondeck/app/templates/homepage.html  
+    inflating: /opt/python/ondeck/app/templates/fb.png  
+[2015-12-23T17:44:08.536Z] INFO  [2703]  - [Application deployment/StartupStage0/AppDeployPreHook/03deploy.py] : Starting activity...
+[2015-12-23T17:44:09.509Z] INFO  [2703]  - [Application deployment/StartupStage0/AppDeployPreHook/03deploy.py] : Completed activity. Result:
+  Collecting argparse==1.2.1 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+    Downloading argparse-1.2.1.tar.gz (69kB)
+  Requirement already satisfied (use --upgrade to upgrade): wsgiref==0.1.2 in /usr/lib64/python2.7 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+  Installing collected packages: argparse
+    Running setup.py install for argparse
+  Successfully installed argparse-1.2.1
+[2015-12-23T17:44:09.509Z] INFO  [2703]  - [Application deployment/StartupStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2015-12-23T17:44:10.955Z] INFO  [2703]  - [Application deployment/StartupStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2015-12-23T17:44:10.955Z] INFO  [2703]  - [Application deployment/StartupStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2015-12-23T17:44:10.955Z] INFO  [2703]  - [Application deployment/StartupStage0/EbExtensionPostBuild] : Starting activity...
+[2015-12-23T17:44:11.214Z] INFO  [2703]  - [Application deployment/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2015-12-23T17:44:11.214Z] INFO  [2703]  - [Application deployment/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2015-12-23T17:44:11.233Z] INFO  [2703]  - [Application deployment/StartupStage0/EbExtensionPostBuild] : Completed activity.
+[2015-12-23T17:44:11.233Z] INFO  [2703]  - [Application deployment/StartupStage0/InfraCleanEbExtension] : Starting activity...
+[2015-12-23T17:44:11.235Z] INFO  [2703]  - [Application deployment/StartupStage0/InfraCleanEbExtension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2015-12-23T17:44:11.236Z] INFO  [2703]  - [Application deployment/StartupStage0] : Completed activity. Result:
+  Application deployment - Command CMD-Startup stage 0 completed
+[2015-12-23T17:44:11.236Z] INFO  [2703]  - [Application deployment/StartupStage1] : Starting activity...
+[2015-12-23T17:44:11.236Z] INFO  [2703]  - [Application deployment/StartupStage1/AppDeployEnactHook] : Starting activity...
+[2015-12-23T17:44:11.236Z] INFO  [2703]  - [Application deployment/StartupStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2015-12-23T17:49:21.110Z] INFO  [2703]  - [Application deployment/StartupStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 2829, uptime 0:00:03
+  2015-12-23 17:49:21,104 WARNING  Apache is running, but root page is not responding in 5mins.
+[2015-12-23T17:49:21.110Z] INFO  [2703]  - [Application deployment/StartupStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Starting activity...
+[2015-12-23T17:49:21.267Z] INFO  [2703]  - [Application deployment/StartupStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Completed activity. Result:
+  + chmod 0755 /var/run/httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /opt/python/run/supervisord.pid
+[2015-12-23T17:49:21.267Z] INFO  [2703]  - [Application deployment/StartupStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2015-12-23T17:49:21.267Z] INFO  [2703]  - [Application deployment/StartupStage1/AppDeployPostHook] : Starting activity...
+[2015-12-23T17:49:21.267Z] INFO  [2703]  - [Application deployment/StartupStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2015-12-23T17:49:21.267Z] INFO  [2703]  - [Application deployment/StartupStage1/PostInitHook] : Starting activity...
+[2015-12-23T17:49:21.267Z] INFO  [2703]  - [Application deployment/StartupStage1/PostInitHook/01processmgrstart.sh] : Starting activity...
+[2015-12-23T17:49:21.271Z] INFO  [2703]  - [Application deployment/StartupStage1/PostInitHook/01processmgrstart.sh] : Completed activity. Result:
+  + pgrep supervisord
+  2604
+[2015-12-23T17:49:21.271Z] INFO  [2703]  - [Application deployment/StartupStage1/PostInitHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/postinit.
+[2015-12-23T17:49:21.271Z] INFO  [2703]  - [Application deployment/StartupStage1] : Completed activity. Result:
+  Application deployment - Command CMD-Startup stage 1 completed
+[2015-12-23T17:49:21.271Z] INFO  [2703]  - [Application deployment/AddonsAfter] : Starting activity...
+[2015-12-23T17:49:21.271Z] INFO  [2703]  - [Application deployment/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2015-12-23T17:49:21.271Z] INFO  [2703]  - [Application deployment/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2015-12-23T17:49:21.390Z] INFO  [2703]  - [Application deployment/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2015-12-23T17:49:21.390Z] INFO  [2703]  - [Application deployment/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2015-12-23T17:49:21.390Z] INFO  [2703]  - [Application deployment/AddonsAfter] : Completed activity.
+[2015-12-23T17:49:21.390Z] INFO  [2703]  - [Application deployment] : Completed activity. Result:
+  Application deployment - Command CMD-Startup succeeded
+[2015-12-23T17:55:33.269Z] INFO  [3014]  - [CMD-TailLogs - stage ] : Starting activity...
+[2015-12-23T17:55:33.491Z] INFO  [3014]  - [CMD-TailLogs - stage /AddonsBefore] : Starting activity...
+[2015-12-23T17:55:33.491Z] INFO  [3014]  - [CMD-TailLogs - stage /AddonsBefore] : Completed activity.
+[2015-12-23T17:55:33.491Z] INFO  [3014]  - [CMD-TailLogs - stage /TailLogs] : Starting activity...
+[2015-12-23T17:55:33.491Z] INFO  [3014]  - [CMD-TailLogs - stage /TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+}
+
+[2015-12-23T17:43:37.716Z] INFO  [2505]  : Command processor should execute command.
+[2015-12-23T17:43:37.716Z] DEBUG [2505]  : Storing current stage..
+[2015-12-23T17:43:37.716Z] DEBUG [2505]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-12-23T17:43:37.716Z] INFO  [2505]  : Executing Initialization
+[2015-12-23T17:43:37.716Z] INFO  [2505]  : Executing command: CMD-PreInit...
+[2015-12-23T17:43:37.717Z] DEBUG [2505]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-12-23T17:43:37.717Z] DEBUG [2505]  : Refreshing metadata..
+[2015-12-23T17:43:37.717Z] DEBUG [2505]  : Refreshed environment metadata.
+[2015-12-23T17:43:37.717Z] DEBUG [2505]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-12-23T17:43:37.717Z] DEBUG [2505]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-12-23T17:43:37.718Z] INFO  [2505]  : Found enabled addons: ["logpublish"].
+[2015-12-23T17:43:37.719Z] INFO  [2505]  : Updating Command definition of addon logpublish.
+[2015-12-23T17:43:37.719Z] DEBUG [2505]  : Loaded definition of Command CMD-PreInit.
+[2015-12-23T17:43:37.719Z] INFO  [2505]  : Executing command CMD-PreInit activities...
+[2015-12-23T17:43:37.719Z] DEBUG [2505]  : Setting environment variables..
+[2015-12-23T17:43:37.719Z] INFO  [2505]  : Running AddonsBefore for command CMD-PreInit...
+[2015-12-23T17:43:37.719Z] DEBUG [2505]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
+[2015-12-23T17:43:37.719Z] INFO  [2505]  : Running stage 0 of command CMD-PreInit...
+[2015-12-23T17:43:37.719Z] DEBUG [2505]  : Loaded 4 actions for stage 0.
+[2015-12-23T17:43:37.719Z] INFO  [2505]  : Running 1 of 4 actions: InfraWriteConfig...
+[2015-12-23T17:43:37.722Z] INFO  [2505]  : Running 2 of 4 actions: InfraWriteApp1...
+[2015-12-23T17:43:37.723Z] INFO  [2505]  : Running 3 of 4 actions: InfraWriteApp2...
+[2015-12-23T17:43:38.544Z] INFO  [2505]  : Running 4 of 4 actions: PreInitHook...
+[2015-12-23T17:43:43.583Z] INFO  [2505]  : Running AddonsAfter for command CMD-PreInit...
+[2015-12-23T17:43:43.583Z] INFO  [2505]  : Command CMD-PreInit succeeded!
+[2015-12-23T17:43:43.583Z] INFO  [2505]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-12-23T17:44:07.084Z] DEBUG [2703]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-12-23T17:44:07.084Z] DEBUG [2703]  : Checking if the command processor should execute...
+[2015-12-23T17:44:07.086Z] DEBUG [2703]  : Checking whether the command is applicable to instance (i-38191bfc)..
+[2015-12-23T17:44:07.086Z] INFO  [2703]  : Command is applicable to this instance (i-38191bfc)..
+[2015-12-23T17:44:07.086Z] DEBUG [2703]  : Checking if the received command stage is valid..
+[2015-12-23T17:44:07.086Z] INFO  [2703]  : No stage_num in command. Valid stage..
+[2015-12-23T17:44:07.086Z] INFO  [2703]  : Received command CMD-Startup: {"execution_data":"{\"leader_election\":\"true\"}","instance_ids":["i-38191bfc"],"command_name":"CMD-Startup","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"56c4855b-a99c-11e5-9753-efeba82d28b9","command_timeout":"600"}
+[2015-12-23T17:44:07.086Z] INFO  [2703]  : Command processor should execute command.
+[2015-12-23T17:44:07.086Z] DEBUG [2703]  : Storing current stage..
+[2015-12-23T17:44:07.086Z] DEBUG [2703]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-12-23T17:44:07.086Z] INFO  [2703]  : Executing Application deployment
+[2015-12-23T17:44:07.086Z] INFO  [2703]  : Executing command: CMD-Startup...
+[2015-12-23T17:44:07.086Z] DEBUG [2703]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-12-23T17:44:07.086Z] DEBUG [2703]  : Refreshing metadata..
+[2015-12-23T17:44:07.305Z] DEBUG [2703]  : Refreshed environment metadata.
+[2015-12-23T17:44:07.305Z] DEBUG [2703]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-12-23T17:44:07.305Z] DEBUG [2703]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-12-23T17:44:07.306Z] INFO  [2703]  : Found enabled addons: ["logpublish"].
+[2015-12-23T17:44:07.307Z] INFO  [2703]  : Updating Command definition of addon logpublish.
+[2015-12-23T17:44:07.307Z] DEBUG [2703]  : Loaded definition of Command CMD-Startup.
+[2015-12-23T17:44:07.307Z] INFO  [2703]  : Executing command CMD-Startup activities...
+[2015-12-23T17:44:07.307Z] DEBUG [2703]  : Setting environment variables..
+[2015-12-23T17:44:07.307Z] INFO  [2703]  : Running AddonsBefore for command CMD-Startup...
+[2015-12-23T17:44:07.307Z] DEBUG [2703]  : Running stages of Command CMD-Startup from stage 0 to stage 1...
+[2015-12-23T17:44:07.307Z] INFO  [2703]  : Running stage 0 of command CMD-Startup...
+[2015-12-23T17:44:07.307Z] INFO  [2703]  : Running leader election...
+[2015-12-23T17:44:07.521Z] INFO  [2703]  : Instance is Leader.
+[2015-12-23T17:44:07.522Z] DEBUG [2703]  : Loaded 7 actions for stage 0.
+[2015-12-23T17:44:07.522Z] INFO  [2703]  : Running 1 of 7 actions: HealthdLogRotation...
+[2015-12-23T17:44:07.528Z] INFO  [2703]  : Running 2 of 7 actions: HealthdHTTPDLogging...
+[2015-12-23T17:44:07.529Z] INFO  [2703]  : Running 3 of 7 actions: HealthdNginxLogging...
+[2015-12-23T17:44:07.529Z] INFO  [2703]  : Running 4 of 7 actions: EbExtensionPreBuild...
+[2015-12-23T17:44:07.846Z] INFO  [2703]  : Running 5 of 7 actions: AppDeployPreHook...
+[2015-12-23T17:44:10.955Z] INFO  [2703]  : Running 6 of 7 actions: EbExtensionPostBuild...
+[2015-12-23T17:44:11.233Z] INFO  [2703]  : Running 7 of 7 actions: InfraCleanEbExtension...
+[2015-12-23T17:44:11.236Z] INFO  [2703]  : Running stage 1 of command CMD-Startup...
+[2015-12-23T17:44:11.236Z] DEBUG [2703]  : Loaded 3 actions for stage 1.
+[2015-12-23T17:44:11.236Z] INFO  [2703]  : Running 1 of 3 actions: AppDeployEnactHook...
+[2015-12-23T17:49:21.267Z] INFO  [2703]  : Running 2 of 3 actions: AppDeployPostHook...
+[2015-12-23T17:49:21.267Z] INFO  [2703]  : Running 3 of 3 actions: PostInitHook...
+[2015-12-23T17:49:21.271Z] INFO  [2703]  : Running AddonsAfter for command CMD-Startup...
+[2015-12-23T17:49:21.390Z] INFO  [2703]  : Command CMD-Startup succeeded!
+[2015-12-23T17:49:21.391Z] INFO  [2703]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-12-23T17:55:33.266Z] DEBUG [3014]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-12-23T17:55:33.267Z] DEBUG [3014]  : Checking if the command processor should execute...
+[2015-12-23T17:55:33.269Z] DEBUG [3014]  : Checking whether the command is applicable to instance (i-38191bfc)..
+[2015-12-23T17:55:33.269Z] INFO  [3014]  : Command is applicable to this instance (i-38191bfc)..
+[2015-12-23T17:55:33.269Z] DEBUG [3014]  : Checking if the received command stage is valid..
+[2015-12-23T17:55:33.269Z] INFO  [3014]  : No stage_num in command. Valid stage..
+[2015-12-23T17:55:33.269Z] INFO  [3014]  : Received command CMD-TailLogs: {"execution_data":"{\"aws_access_key_id\":\"ASIAIAOLLIYDPHK3RSVA\",\"signature\":\"DKSyESsHBpZ8Mrjl4burHOQmApY=\",\"security_token\":\"AQoDYXdzEBsawAKDp6aqK4Lpdo0eVZ95t9U0ZyTTf7aX0aTj3Ua5UVlyRTkL4r\\\/IV6tGzudlCNYbjdcNk40QjhfHuZuqzuUh87lgAhAi0JHY+leeRio74d27huv+XjViiM\\\/fjfZ6E1t17W8tBugYIPaT\\\/ZvXIPb72Oizt\\\/iTNRReNOH8Ysa5UuKIl2ERuzWLLgqtWfYCmuCtthBOkckBPR0dbCF5cEC6hdhI5PhnKJrkpoXHqAipXGCjuNHju+BZSF8IYupYIrFSMul+HsUFk\\\/mTn5b35r8yVeB2wKYhROPkQ8tr5WJS35Sm4Qlf4JQYiSH5qR7tpFZTkOwL6cHWqJNQHzNEqN2NdkMPIGtee4abedK5id+dU8IwRwSezBqftVZv5WX8qF5FuaIhwcqW9B2m1Vvx1psSwsKhV+4dBRhWRyNEhCSBoRxmoSCSwOuzBQ==\",\"policy\":\"eyJleHBpcmF0aW9uIjoiMjAxNS0xMi0yM1QxODoyNTozMS4xMzVaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotc2VjdXJpdHktdG9rZW4iLCIiXSxbInN0YXJ0cy13aXRoIiwiJENvbnRlbnQtVHlwZSIsIiJdLFsiZXEiLCIkYnVja2V0IiwiZWxhc3RpY2JlYW5zdGFsay11cy13ZXN0LTItNzQ4NjE1MzY1OTkwIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl1dfQ==\"}","instance_ids":["i-38191bfc"],"data":"5b7e51cc-a99e-11e5-aec7-4be1f4b0e344","command_name":"CMD-TailLogs","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"5b7e51cc-a99e-11e5-aec7-4be1f4b0e344","command_timeout":"600"}
+[2015-12-23T17:55:33.269Z] INFO  [3014]  : Command processor should execute command.
+[2015-12-23T17:55:33.269Z] DEBUG [3014]  : Storing current stage..
+[2015-12-23T17:55:33.269Z] DEBUG [3014]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-12-23T17:55:33.269Z] INFO  [3014]  : Executing CMD-TailLogs - stage 
+[2015-12-23T17:55:33.269Z] INFO  [3014]  : Executing command: CMD-TailLogs...
+[2015-12-23T17:55:33.269Z] DEBUG [3014]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-12-23T17:55:33.269Z] DEBUG [3014]  : Refreshing metadata..
+[2015-12-23T17:55:33.489Z] DEBUG [3014]  : Refreshed environment metadata.
+[2015-12-23T17:55:33.489Z] DEBUG [3014]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-12-23T17:55:33.489Z] DEBUG [3014]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-12-23T17:55:33.490Z] INFO  [3014]  : Found enabled addons: ["logpublish"].
+[2015-12-23T17:55:33.491Z] INFO  [3014]  : Updating Command definition of addon logpublish.
+[2015-12-23T17:55:33.491Z] DEBUG [3014]  : Loaded definition of Command CMD-TailLogs.
+[2015-12-23T17:55:33.491Z] INFO  [3014]  : Executing command CMD-TailLogs activities...
+[2015-12-23T17:55:33.491Z] DEBUG [3014]  : Setting environment variables..
+[2015-12-23T17:55:33.491Z] INFO  [3014]  : Running AddonsBefore for command CMD-TailLogs...
+[2015-12-23T17:55:33.491Z] DEBUG [3014]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2015-12-23T17:55:33.491Z] INFO  [3014]  : Running stage 0 of command CMD-TailLogs...
+[2015-12-23T17:55:33.491Z] DEBUG [3014]  : Loaded 1 actions for stage 0.
+[2015-12-23T17:55:33.491Z] INFO  [3014]  : Running 1 of 1 actions: TailLogs...
+
+
+
