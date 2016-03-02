@@ -4,7 +4,7 @@ from flask_oauth import OAuth
 import json
 import pymongo
 try:
-    conn = pymongo.MongoClient(host='ec2-54-200-192-132.us-west-2.compute.amazonaws.com', port=27017)
+    conn = pymongo.MongoClient(host='', port=)
     print "Connected successfully!!!"
     db = conn['Palette']
     users=db.users
@@ -21,8 +21,6 @@ SECRET_KEY = 'Cloud Project'
 DEBUG = True
 FACEBOOK_APP_ID = ''
 FACEBOOK_APP_SECRET = ''
-
-
 application = Flask(__name__)
 application.debug = DEBUG
 application.secret_key = SECRET_KEY
@@ -37,7 +35,6 @@ facebook = oauth.remote_app('facebook',
     consumer_secret=FACEBOOK_APP_SECRET,
     request_token_params={'scope': 'email'}
 )
-
 
 @application.route('/')
 def index():
@@ -110,12 +107,6 @@ def restaurant():
     sS=res['sentimentSum']
     rS=res['ratingSum']
     rC=res['ratingCount']
-    # if(sC==0):
-    #     sC=1
-    #     sS=3
-    # if(rC==0):
-    #     rC=1
-    #     rS=3
     if(int(rC)>=1):
         session['rating']=float(rS)/int(rC)
     else:
@@ -144,10 +135,7 @@ def bookdetails():
         )
         session['radio']=radio
         return render_template('confirmbook.html')
-# @application.route('/homepage')
-# def homepage():
-#     return
-
+        
 @application.route('/book', methods=['GET','POST'])
 def book():
     li=[]
@@ -204,7 +192,6 @@ def dishSearch(restaurant_id=1):
         return render_template(
             'dishsearch.html', restaurant_id=restaurant_id)
 
-
 @application.route('/login/authorized')
 @facebook.authorized_handler
 def facebook_authorized(resp):
@@ -222,15 +209,10 @@ def facebook_authorized(resp):
         return redirect(url_for('home'))
     else:
         return redirect(url_for('signup'))
-    # return 'Logged in as id=%s name=%s  redirect=%s '% \
-    #     (me.data['id'], me.data['name'],request.args.get('next'))
-
 
 @facebook.tokengetter
 def get_facebook_oauth_token():
     return session.get('oauth_token')
 
-
 if __name__ == '__main__':
     application.run()
-
