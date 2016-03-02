@@ -19,8 +19,8 @@ except Exception, e:
 
 SECRET_KEY = 'Cloud Project'
 DEBUG = True
-FACEBOOK_APP_ID = '1647473852171564'
-FACEBOOK_APP_SECRET = '937e588bf50f0560ec4823ca4f268731'
+FACEBOOK_APP_ID = ''
+FACEBOOK_APP_SECRET = ''
 
 
 application = Flask(__name__)
